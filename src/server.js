@@ -16,7 +16,7 @@ app.get('/', (req, res) => {
 });
 app.use("/api/produto", router);
 
-mongo.connect("mongodb+srv://amakhoekars:r0yjJYWSVYiB4c7u@cluster0.tiuvy.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+mongo.connect("")
 .then(() => {
         console.log("its working");
 })
